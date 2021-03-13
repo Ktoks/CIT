@@ -1,0 +1,15 @@
+function(response) {
+    alert(response.body);
+}
+
+server responds with oompa loompa stuff,
+but the response goes into the body
+404 not found ->only in postman
+
+design element for each element in a list
+    var div = document ... create
+        className = "winnder";
+        above is one option
+    div.style.backgroundColor = "gold" or whatev backgroundColor
+
+    

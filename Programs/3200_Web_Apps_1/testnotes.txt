@@ -1,0 +1,51 @@
+-CORS : cross origin resource sharing
+    exception or rule: it's the exception to the rule
+        rule is same origin policy
+            google.com domain back and forth, client only talks to google
+    what is access control allow credentials true? : I agree, you have my cookie, I will honor those
+    pre-flighted request : request that mandates a pre-flight request
+        pre-flight request : safety check, ask for permission
+            do_options sets this up
+            anything but get and post use it
+        regular requests : try, if it didn't work, return a response
+
+-Cookies and sessions
+    cookie : data 
+        issued by server
+        stored on the client
+        given back to the server on every response from client
+
+    session : period of time, conversation, a visit
+        can be authenticated
+        can also be annonymous
+        session store : database of state data
+            holds an identity (post-it note): cookie***
+                sessionID
+            used for remembering visitors
+
+-Authorization and Authentication
+    authentication : proving who you are
+    authorization : credentials, rules, are you allowed?
+
+
+-Password Hashing
+    make it very difficult for someone to get user's passwords
+    privacy, not holding a password directly in your database, holding a hash of the password
+    one-way encryption
+    signature validation
+    matching hashes has to be consistent
+    salting - addes stuff to passwords to ensure better security
+        makes each password different
+        defeats a look-up table/rainbow table attack
+
+-Deployment
+    what are the big pillars of Deployment
+    shared hosting - cheap, not secure
+    virtual hosting - convenient, more control over software
+    physical hosting - full control, costly
+    platform as a service - heroku, easier, virtual hosting with more features, little more expensive, little less flexible
+    skim the assignment page one deployment
+
+
+-Sending messages
+    two-way encryption

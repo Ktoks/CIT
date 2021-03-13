@@ -1,0 +1,61 @@
+everything from mid-term sprinkled in with
+mostly stuff since mid-term
+Final = 33%
+    practical = 20%
+    written = 13%
+mid-term = 17%
+projects = 50%
+
+status codes: 
+    know how requests and responses work
+    only necissary part of response: status codes
+successes
+    200 OK
+    201 success: created/logged in
+client errors:
+    403 forbidden: can't do that, even if logged
+    401 unauthenticated: try again after logging
+    404 not found: I don't have it
+    422 unprocessable: validation error
+    server errors:
+    5__
+
+why does the client server model exist
+    centralization
+        to prevent having to download all the/
+        /data multiple times, this is more/
+        effective.
+
+REST:
+    emphasizes uniformity of requests being
+    formed consistantly and well
+    method and path pair: 
+    list    |   method	|   path
+    create  |   POST    |   collection
+    update	|   PUT	    |   collection/{id}
+    delete	|   DELETE  |   /collection/{id}
+    retrieve|   GET     |   /collectoin/{id}
+    list	|   GET	    |   /collection
+~Get vs post:
+    GET: asking, not demanding, not changing
+    EVERYTHING ELSE: side effects, changing
+
+why do we have a database?
+Why would we use postgresq? 
+    -more storage
+    -scales with data
+    -more advanced tools
+Why would we use sqlite?
+    -specific qualities
+    -testing
+    -data is small
+    -few resources
+    -mobile devices
+    -environment can't handle postgresq
+    
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+have some data to show your app is running
+make sure it's on github before the start of the exam
+
+you can look at the tickets
+
+not authenticating, we are authorizing you to make a ticket
+    if not cookie, create

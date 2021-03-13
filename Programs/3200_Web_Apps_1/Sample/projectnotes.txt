@@ -1,0 +1,20 @@
+So I think I'm going to make a chore chart thing that 
+can be  used by roommates, families, or could be implemented
+in a business setting -for indevidual 'jobs'.
+
+It's functionality will be as follows:
+
+It will have a database that contains a list of chores/'jobs'.
+
+It will have the ability to append to the database.
+
+On a button click, it will assign a random 'job' to each
+    'worker'until all 'jobs' are done.
+
+Another database will hold as many names as necissary 
+    for 'workers'.
+
+It will keep a history of those who were assigned chores
+    and display those unfinished until checked off by
+    'workers'.
+
