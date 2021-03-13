@@ -1,0 +1,12 @@
+mod (m n) (- m (* n (/ m n)))
+mod
+mod (7 3)
+
+(define length (l) (if (null? l) 0 (+1) (length (cdr l))))
+length
+
+(define atom? (x) (or (null? x) (or (number? x) symbol? x)))
+atom?
+
+equal in photos
+

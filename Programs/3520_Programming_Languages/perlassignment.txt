@@ -1,0 +1,15 @@
+Showcase the things that makes the language unique
+what was the story behind the language
+why is it useful
+show an example, skip to the interesting stuff
+do something that uses perl tricks
+what is the vision of the world that this language promotes?
+
+@
+little history
+show the code you wrote
+demonstrate what's interesting about the language
+why did someone feel the need to create this language?
+what drives them to continue to work on this language?
+replace the shell and be the ultimate glue language for unix stuff
+ultimate language for throwing together a one-time script

@@ -1,0 +1,9 @@
+I have been told that this fix works for Windows, regardless of BIOS settings.
+
+	From a cmd prompt as administrator:
+bcdedit /set {current} nx AlwaysOff
+(then reboot)
+
+	To turn data segment code protection back on:
+bcdedit /set {current} nx OptIn
+(then reboot)

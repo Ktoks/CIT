@@ -1,0 +1,12 @@
+The C program starts out in main
+It checks and parses the command-line arguments.
+It initializes the Lua environment and registers C functions that can be called from Lua
+It calls a Lua function to drive the rest of the process
+The Lua code calls a C function to load the input file, returning it as Lua string
+The Lua code calls a C function to parse the input string. It passes in the string and an offset (see
+below) and gets back a single new token and a new offset. It calls this many times, resulting in a list of
+tokens in Lua.
+The Lua code generates n-grams, then shingles, then a table of prefixes mapped to last words (see
+below).
+The Lua code babbles the requested number of words to the console
+

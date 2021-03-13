@@ -1,0 +1,11 @@
+lua is an embedded language
+ipc : interprocess communication
+microservices : small programs that talk to eachother across the network
+    amazon's shopping cart vs their video service
+unit testing - write your code to make it testable
+    test code calls the functions it is testing and hands it fake objects
+
+in order to write programs : write them in high level code to make something complete,
+    then test it to see if you need to make it more eficient.
+
+lua is designed to write things inside a large system
